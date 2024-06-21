@@ -50,4 +50,4 @@ results_df = pd.DataFrame(results, columns=['transaction_id', 'result'])
 
 # Salvar os resultados em um arquivo Excel
 output_file_path = 'transaction_results.xlsx'
-results_df.to_csv(output_file_path, index=False)
+results_df.to_excel(output_file_path, index=False)
